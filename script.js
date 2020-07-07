@@ -384,15 +384,59 @@ inputtt.forEach(data=>{
 /***************************************************************/
 //What the output
 
-const myobject = {1:one,"11":1,"name":"arun"}
+const myobject = {1:"one","11":1,"name":"arun"}
 // console.log(myobject.11); 
 // console.log(myobject.name)   //Uncaught SyntaxError: missing ) after argument list
 
 /***************************************************************/
 
+//Add a new key value pair to myobject
+//key : ten
+//value : ten
+myobject["ten"] = "ten";
+console.log(myobject)
 
+/***************************************************************/
+//Write out an object literal to represent the data below.
+// Guvi, Geek, 6, IIT-M RP,Chennai.
+const ZEN = {
+  org: "GUVI",
+  type: "Geek",
+  phase: 6,
+  incubited: "IIT-M RP",
+  state: "chennai",
+};
 
+/***************************************************************/
+// How would you represent the following data using a combination of object literals and arrays? 
+// (You can describe a strategy without typing or writing out the whole thing.)
 
+const ZEN1 = [{
+    org: "GUVI",
+    type: "Geek",
+    phase: 6,
+    incubited: "IIT-M RP",
+    state: "chennai",
+  },{
+    org: "Amazon",
+    type: "Inc",
+    phase: 31,
+    incubited: "SP Infocity",
+    state: "chennai",
+  },{
+    org: "Google",
+    type: "Alphabet",
+    phase: 34,
+    incubited: " Amphitheater Parkway",
+    state: "MountainView",
+  },{
+    org: "Tesla",
+    type: "Inc",
+    phase: 32,
+    incubited: "333 Santana Row",
+    state: "San Jose",
+  }];
+  
 
 
 
